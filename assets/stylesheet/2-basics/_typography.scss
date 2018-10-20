@@ -6,12 +6,6 @@ Typography Styling
 - Media Quieres Are Used To Change Size Depending On The Screen Size
 */
 
-.gigantic, .huge, .large, .bigger, .big,
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  @include text-align(center);
-}
-
 .gigantic {
   font-size: 82.5pt;
   line-height: 1.09;
