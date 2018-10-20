@@ -1,7 +1,26 @@
-@mixin flex ($flex-direction, $justify-content, $align-item, $view-height){
-  display: flex; //Enables Flex Behaviours
+@mixin flex ($flex,$flex-direction, $justify-content, $align-item){
+  display: $flex; //Enables Flex Behaviours
   flex-direction: $flex-direction;  //Makes Axis Vertical
   justify-content: $justify-content; // Centers Items Vertically
   align-items: $align-item;     // Centers Items Horizontally
-  height: $view-height; // 100% Of Viewport
+}
+
+@mixin flex-wrap($flex,$wrap) {
+  display: $flex;
+  flex-wrap: $wrap;
+}
+
+@mixin flex-direction($flex,$direction) {
+  display: $flex;
+  justify-content: $direction;
+}
+
+@mixin flex-content ($flex, $content) {
+  display: $flex;
+  justify-content: $content;
+}
+
+@mixin flex-align($flex, $align) {
+  display: $flex;
+  align-items: $align;
 }

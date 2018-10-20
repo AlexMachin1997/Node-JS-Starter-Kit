@@ -10,17 +10,17 @@ MASTER-DIR  Styling
 // 5. mixins index
 @import "5-mixins/5-mixins-index";
 
-// 0. plugins index
-@import "0-plugins/0-plugins-index";
-
 // 1. tools index
-@import "1-tools/1-tools-index";
+@import "0-tools/0-tools-index";
 
-// 2. basics index
+// 2. tools index
+@import "1-utilities/1-utilities-index";
+
+// 3. basics index
 @import "2-basics/2-basics-index";
 
-// 3. layouts index
-@import "3-layouts/3-layouts-index";
+// 4. layouts index
+@import "3-modules/3-modules-index";
 
-// 4. pages index
+// 5. pages index
 @import "4-pages/4-pages-index";

@@ -1,0 +1,53 @@
+form {
+  input, select, textarea {
+    outline: none;
+    &:hover {
+      cursor: pointer;
+    }
+    &:focus {
+      border: 1px solid $active;
+    }
+  }
+}
+
+.form-container {
+  width: 450px;
+  padding: 32px 0;
+  margin: 72px auto;
+}
+
+.input-group {
+  margin: 10px 0;
+}
+
+.input-field {
+  height: 50px;
+  padding: 5px;
+  border: 1px solid $silver;
+}
+
+.comment-edit-input {
+  width: 99%;
+  border: 1px solid silver;
+  padding: 5px;
+}
+
+
+@include breakpoint(md) {
+  .form-container {
+    width: 100%;
+    margin: 0;  }
+}
+
+@include breakpoint(sm) {
+  .form__container {
+
+    .input__group__inputfield {
+      padding: 15px;
+    }
+    
+    textarea {
+      height: 110px;
+    }
+  }
+}

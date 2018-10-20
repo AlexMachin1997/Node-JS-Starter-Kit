@@ -1,12 +1,10 @@
 /*
-Basics Index
+Tools Index
 - This File Imports All Partials (_[Name.scss]) Into This Index File
 -This File Gets Imported Into The _MASTER-DIR.scss
 - No Need To Specify File Extension SASS Is Smart It Auto Detects The File Extensions
  */
 
-//Importing Footer File
-@import "footer";
 
-//Importing Menu File
-@import "menu";
+@import "fonts";
+@import "normalize";

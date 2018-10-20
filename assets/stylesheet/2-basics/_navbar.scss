@@ -1,0 +1,10 @@
+nav {
+    ul {
+        list-style: none;
+        li {
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

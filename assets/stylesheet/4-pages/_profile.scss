@@ -1,0 +1,77 @@
+.profile__avatar {
+    width: 250px;
+    height: 250px;
+}
+
+.profile__name {
+    font-weight: 700;
+}
+
+.profile__gallery {
+    list-style: none;
+    padding-left: 0;
+}
+
+.profile__gallery__images {
+    width: 269px;
+    height: 269px;
+    margin-bottom: 10px;
+}
+
+.tab-pane {
+    margin: 5px;
+}
+
+
+@media (max-width: 576px) {
+    .profile__avatar {
+      height: 300px;
+      width: 100%;
+    }
+  
+    .profile__gallery__images {
+      width: 100%;
+    }
+}
+
+@media (max-width: 768px) {  
+    .profile__avatar {
+      width: 100%;
+    }
+  
+    .profile__gallery__images {
+      width: 100%;
+      height: 200px;
+      padding: 0;
+      margin: 1.5px;
+    }
+
+    .profile__avatar {
+      height: 300px;
+      width: 500px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .profile__avatar {
+        width: 100%;
+    }
+}
+
+
+/* Tablets - Nexus 7, Apple Ipads Width */
+
+@media (max-width: 1024px) {
+    .profile__avatar {
+        width: 105%;
+    }
+        
+    .profile__gallery__images {
+        width: 180px;
+        height: 150px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+}
+

@@ -1,0 +1,58 @@
+button {
+    outline: none;
+    border: none;
+    &:hover {
+        @include button-hover(none,none, pointer);
+    }
+    &:active {
+        outline: none;
+    }
+}
+
+//General button styling
+.button {
+    @include border-radius(10px);
+    padding: 5px 15px;
+}
+
+//Edit button for the comments
+.edit {
+    margin-right: 5px;
+}
+
+//Delete button for the comments
+.delete {
+    margin-right: 5px;
+}
+
+.contact-author {
+    border: 1px solid teal;
+}
+
+
+.login-button {
+    height: 50px;
+}
+
+//Booking button for the desktop and mobile button
+.booking {
+    padding: 10px 30px;
+}
+
+//Submit button for the comments
+.submit {
+    @include border-radius(5px);
+}
+
+//Cancel button for the comments
+.cancel {
+    background-color: transparent;
+    border: none;
+    margin: 5px 0;
+}
+
+@include breakpoint(sm) {
+    .booking {
+        padding: 10px;
+    }
+}

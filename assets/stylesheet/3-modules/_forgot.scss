@@ -1,0 +1,39 @@
+.forgot-container {
+    display: flex;
+    justify-content: center;
+    form {
+        border: 1px solid $silver;
+    }
+}
+
+.forgot-header {
+    padding: 10px 0;
+    background-color: lighten(#aaa,20%);
+    padding-left: 10px;
+    h4 {
+        margin-bottom: 0;
+    }
+}
+
+.forgot-body {
+    padding: 10px;
+    hr {
+        border: 0;
+        height: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+}
+
+#forgot-input {
+    input {
+        margin-bottom: 10px;
+    }
+}
+
+
+@include breakpoint(md){
+    .forgot-container {
+        margin: 10px;
+    }    
+}
