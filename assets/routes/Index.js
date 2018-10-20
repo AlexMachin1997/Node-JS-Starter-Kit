@@ -3,9 +3,8 @@
 //----------------------------------------------------------------------------//
 
 var express = require("express"),
-      router = express.Router(),
-      request = require("request");
-
+      router = express.Router();
+      
 //Default Route For Application (ONLY ROUTE AVALIABLE)
 router.get("/", function(req, res){
   res.render("Index");
