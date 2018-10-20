@@ -1,0 +1,42 @@
+/* 
+Base Background Colour :
+- Gets the name and colour from the colours array in the variables.scss
+- For each value it generates the base colour
+- An example of a base colour could be background-red
+*/ 
+@each $name, $colour in $colours {
+    .background-#{$name} {
+        background-color: $colour !important; 
+    }
+}
+
+
+/* 
+Light Base Background Colour :
+- Gets the name and colour from the colours array in the variables.scss
+- For each value it generates the base colour, then a modifier --light 
+- An example of a base colour could be background-red--light 
+*/
+@each $name, $colour in $colours {
+    .background-#{$name}--light {
+        background-color: lighten($colour,10%) !important; 
+        &:hover {
+            background-color: darken($colour,10%) !important;    
+        }
+    }
+}
+
+/* 
+Dark Base Background Colour :
+- Gets the name and colour from the colours array in the variables.scss
+- For each value it generates the base colour, then a modifier --dark
+- An example of a base colour could be background-red--dark
+*/
+@each $name, $colour in $colours {
+    .background-#{$name}--dark {
+        background-color: darken($colour,10%) !important; 
+        &:hover {
+            background-color: lighten($colour,10%) !important; 
+        }
+    }
+}

@@ -2,25 +2,17 @@
 Basics Index
 - This File Imports All Partials (_[Name.scss]) Into This Index File
 -This File Gets Imported Into The _MASTER-DIR.scss
- */
+*/
+
+
+//Import Breapoint Mixin File
+@import "breakpoints";
 
  //Import Animations
  @import "animations";
 
-//Importing Border Radius Mixin File
-@import "border-radius";
-
-//Importing Background Image Mixin File
-@import "background-image";
-
 //Import Button Mixin File
-@import "button";
+@import "buttons";
 
-//Import Button Flex Mixin File
-@import "flex-utilities";
-
-//Import Border Mixin File
-@import "border";
-
-//Import Uppercase
-@import "text-styles";
+//Impor Positioning Mixin File
+@import "positioning";

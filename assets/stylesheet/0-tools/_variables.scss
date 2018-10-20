@@ -1,0 +1,39 @@
+/* 
+Utilities Section:
+This section contains helpers in the form of variables.
+- A range of pre-defined colours
+- The main colours for the application e.g. primary and secondary
+- Font-sizes
+- Breakpoints
+- Font-weight
+- page specifc variables e.g. place or places
+*/
+
+$silver: #ddd;
+$primary-border: 1px solid $silver;
+$active: #57AEB1;
+
+//An array of colours
+$colours: (
+    aqua:  #7FDBFF,
+    blue:  #0074D9,
+    navy:  #001F3F,
+    teal:  #39CCCC,
+    green: #2ECC40,
+    olive: #3D9970,
+    lime:  #01FF70,
+    dark-blue: #008489,
+    dark-green: #57AEB1,
+
+    yellow:  #FFDC00,
+    orange:  #FF851B,
+    red:     #FF4136,
+    fuchsia: #F012BE,
+    purple:  #B10DC9,
+    maroon:  #85144B,
+    white:  #fff,
+    silver: #ddd,
+    gray:   #aaa,
+    black:  #000,
+);
+

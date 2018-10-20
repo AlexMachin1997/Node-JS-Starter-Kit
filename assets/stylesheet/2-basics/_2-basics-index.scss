@@ -5,14 +5,13 @@ Basics Index
 - No Need To Specify File Extension SASS Is Smart It Auto Detects The File Extensions
  */
 
- //Importing Alert File
- @import "alert";
-
 //Importing Body Element File
 @import "body-element";
 
 //Importing Buttons File
 @import "buttons";
+
+@import "alert";
 
 //Importing Forms File
 @import "forms";
@@ -28,6 +27,9 @@ Basics Index
 
 //Importing Selection Colours File
 @import "selection-colours";
+
+//Importing Spans File
+@import "spans";
 
 //Importing Typography File
 @import "typography";

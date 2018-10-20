@@ -1,6 +1,10 @@
 /*
-Plugins Index
+Tools Index
 - This File Imports All Partials (_[Name.scss]) Into This Index File
 -This File Gets Imported Into The _MASTER-DIR.scss
 - No Need To Specify File Extension SASS Is Smart It Auto Detects The File Extensions
  */
+
+
+@import "fonts";
+@import "normalize";

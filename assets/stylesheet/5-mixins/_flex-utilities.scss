@@ -1,7 +1,0 @@
-@mixin flex ($flex-direction, $justify-content, $align-item, $view-height){
-  display: flex; //Enables Flex Behaviours
-  flex-direction: $flex-direction;  //Makes Axis Vertical
-  justify-content: $justify-content; // Centers Items Vertically
-  align-items: $align-item;     // Centers Items Horizontally
-  height: $view-height; // 100% Of Viewport
-}
